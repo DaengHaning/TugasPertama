@@ -7,18 +7,22 @@ package tugaspertama;
 
 /**
  *
- * @author Lenovo
+ * @author riduwan
  */
 public class RumahAksi {
     public static void main(String[] args) {
-        Rumah Indra = new Rumah ();
+        Rumah Indra = new Rumah(); 
         
-        Indra.NamaPemilik="Indra leksmana";
-        Indra.Tipe="minimalis";
-        Indra.Posisi="Menghadap Timur";
+       Indra.NamaPemilik="Indra leksmana";
+       Indra.Tipe="minimalis";
+       Indra.luas=1000 ;
         
-        Indra.Cetakinfo();
+        Indra.cetakinfo();
         
+    }
+
+    private static Rumah Pemilik() {
+        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
     }
     
 }
