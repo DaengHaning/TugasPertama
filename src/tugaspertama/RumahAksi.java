@@ -12,6 +12,10 @@ package tugaspertama;
 public class RumahAksi {
     public static void main(String[] args) {
         Rumah Indra = new Rumah ();
+        
+        Indra.NamaPemilik="Indra leksmana";
+        Indra.Tipe="minimalis";
+        Indra.Posisi="Menghadap Timur";
     }
     
 }
