@@ -10,5 +10,14 @@ package tugaspertama;
  * @author Lenovo
  */
 public class Rumah {
+    string NamaPemilik;
+    string Tipe;
+    Double Posisi;
+    
+    Void Cetakinfo(){
+        System.out.println ("Namapemilik  :"+NamaPemilik);
+        System.out.println ("Tipe         :"+Tipe);
+        System.out.println ("Posisi       :"+Posisi);
+    }
     
 }
