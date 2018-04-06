@@ -16,6 +16,9 @@ public class RumahAksi {
         Indra.NamaPemilik="Indra leksmana";
         Indra.Tipe="minimalis";
         Indra.Posisi="Menghadap Timur";
+        
+        Indra.Cetakinfo();
+        
     }
     
 }
