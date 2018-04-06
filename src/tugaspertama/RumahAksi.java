@@ -10,5 +10,8 @@ package tugaspertama;
  * @author Lenovo
  */
 public class RumahAksi {
+    public static void main(String[] args) {
+        Rumah Indra = new Rumah ();
+    }
     
 }
